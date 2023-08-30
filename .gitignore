@@ -1,0 +1,7 @@
+*+x
+*.out
+*.exe
+*.txt
+*.dat
+*.dSYM
+.vscode
