@@ -1,3 +1,5 @@
+#ifndef DEPORTISTA_H
+#define DEPORTISTA_H
 #include <iostream>
 
 using namespace std;
@@ -22,3 +24,4 @@ public:
     }
 };
 
+#endif

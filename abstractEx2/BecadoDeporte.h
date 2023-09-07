@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class BecadoDeporte: public Alumno, Deportista
+class BecadoDeporte: public Alumno, public Deportista
 {
 private:
    float montoBeca;
@@ -24,7 +24,7 @@ public:
         float incremento = (montoBeca*incrementPercentage) / 100;
         this->montoBeca += incremento;
     }
-    float getNombreCarrera(){
+    float getMontoBeca(){
         return this->montoBeca;
     }
 };

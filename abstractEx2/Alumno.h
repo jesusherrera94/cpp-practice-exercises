@@ -1,3 +1,5 @@
+#ifndef ALUMNO_H
+#define ALUMNO_H
 #include <iostream>
 
 using namespace std;
@@ -22,3 +24,4 @@ public:
     }
 };
 
+#endif
