@@ -9,15 +9,21 @@ private:
     int aniosExperiencia;
     string titulacion;
 public:
-    Medico(string nombre, string apellido, int edad, int aniosExperiencia, string titulacion):
+    Medico(string nombre, string apellido, int edad, string titulacion, int aniosExperiencia):
     Persona(nombre, apellido, edad) 
     {
         this->aniosExperiencia = aniosExperiencia;
         this->titulacion = titulacion;
     }
     ~Medico(){}
-    void partidoFutbol(){}
-    void entrenamiento(){}
-    void curarLesion(){}
+    void partidoFutbol(){
+        cout<<"Da la asistencia en el partido de futbol"<<endl;
+    }
+    void entrenamiento(){
+        cout<<"Da la asistencia en el entrenamiento"<<endl;
+    }
+    void curarLesion(){
+        cout<<"Curar lesion"<<endl;
+    }
 };
 

@@ -16,8 +16,14 @@ public:
         this->posicion = posicion;
     }
     ~Futbolista(){}
-    void partidoFutbol(){}
-    void entrenamiento(){}
-    void entrevista(){}
+    void partidoFutbol(){
+        cout<<"Juega el partido de futbol"<<endl;
+    }
+    void entrenamiento(){
+        cout<<"Entrenar"<<endl;
+    }
+    void entrevista(){
+        cout<<"Da una entrevista"<<endl;
+    }
 };
 

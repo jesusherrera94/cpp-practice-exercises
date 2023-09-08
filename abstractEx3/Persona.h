@@ -17,8 +17,19 @@ public:
         this->edad = edad;
     }
     ~Persona(){}
-    void viajar(){}
+    void viajar(){
+        cout<<"Viajar"<<endl;
+    }
     virtual void partidoFutbol() = 0;
     virtual void entrenamiento() = 0;
+    string getNombre() {
+        return this->nombre;
+    }
+    string getApellido() {
+        return this->apellido;
+    }
+    int getEdad() {
+        return this->edad;
+    }
 };
 #endif

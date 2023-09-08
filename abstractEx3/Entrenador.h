@@ -14,8 +14,14 @@ public:
         this->estrategia = estrategia;
     }
     ~Entrenador(){}
-    void partidoFutbol(){}
-    void entrenamiento(){}
-    void planificarEntrenamiento(){}
+    void partidoFutbol(){
+        cout<<"Dirige el partido de futbol"<<endl;
+    }
+    void entrenamiento(){
+        cout<<"Dirige el entrenamiento"<<endl;
+    }
+    void planificarEntrenamiento(){
+        cout<<"Planifica el entrenamiento"<<endl;
+    }
 };
 
