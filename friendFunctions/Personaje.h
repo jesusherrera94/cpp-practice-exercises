@@ -21,4 +21,3 @@ public:
         cout<<"Defensa = "<<this->defensa<<endl;
     }
 };
-
