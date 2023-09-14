@@ -1,8 +1,9 @@
 #include <iostream>
-#include<fstream>
-#include<iterator>
-#include<vector>
-#include<cstdlib>
+#include <fstream>
+#include <iterator>
+#include <vector>
+#include <cstdlib>
+
 using namespace std;
 
 int main() {
